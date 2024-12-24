@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;  
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    position: relative;
+    top:18%;
+    border: 1px solid black;
+    margin-left: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+#startButton {
+position: absolute;
+top: 20px;
+left: 20px;
+padding: 20px;
+background-color: #000082;
+color: white;
+border: none;
+cursor: pointer;
+font-size: 20px;
+
+font-family: 'Fira Code', monospace;
+}
+
+#startButton:hover {
+background-color: #010140;
+}
+
+.wrapper {
+    position: relative;
+    top: 38%;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    background: none;
+    border-radius: 0px;
+    font-family: 'Fira Code', monospace;
+    padding-left: 60px;
+    text-align: left; 
+}
+
+.wrapper h1 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.wrapper h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    text-align: left; 
+}
+
+.wrapper i {
+    font-size: 20px;
+    color: #000082;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-align: left;}
+
+.wrapper p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000000;
+    margin: 5px 0;
+    font-family: 'Fira Code', monospace;
+    text-align: left; 
+}
+
+.wrapper .description {
+    margin-bottom: 20px;
+    text-align: left;
+}
